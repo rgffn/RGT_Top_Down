@@ -1,0 +1,61 @@
+[gd_scene load_steps=4 format=3 uid="uid://delasunxr2i0b"]
+
+[ext_resource type="Texture2D" uid="uid://bd4rcdtoty1qb" path="res://terrain/assets/objects.png" id="1_j05ko"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_87i63"]
+resource_name = "objects"
+texture = ExtResource("1_j05ko")
+0:5/size_in_atlas = Vector2i(3, 4)
+0:5/0 = 0
+0:5/0/texture_origin = Vector2i(0, 18)
+0:5/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:5/0/physics_layer_0/angular_velocity = 0.0
+0:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -3.57973, 9.45755, -1.32582, 10.916, 0.132583, 11.0927, 4.02167, 9.1482, 3.84489, 8.88303, 7.82237, -6.0988, 8, -8, 4.86136, -11.0927, 4.90555, -11.0927, 1.01647, -9.45755, -1.5026, -11.2253, -0.441941, -11.2253, -2.38649, -9.98788, -4.33103)
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-2.96875, 1.09375, 2.21875, 1.21875, 7.03125, 1.34375, 7.03125, 1.96875, 5.96875, 2.21875, 5.9375, 2.9375, 1.90625, 2.90625, 1.90625, 5.03125, -2.03125, 4.96875, -2.0625, 2.9375, -5.84375, 2.96875, -6.03125, 1.84375, -6.84375, 1.90625, -7.03125, 1.15625)
+0:1/0 = 0
+0:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:1/0/physics_layer_0/angular_velocity = 0.0
+0:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-3.81968, -4.31575, -1.93465, -6.10157, -1.14094, -6.89527, 1.04173, -6.89527, 1.73622, -6.39921, 3.62126, -5.90315, 4.81181, -4.61339, 5.70472, -3.9189, 7.0937, -1.5378, 6.3, 4.31575, 4.7126, 5.5063, 3.02598, 6.99449, -0.644882, 6.59764, -3.22441, 5.40709, -5.20866, 4.11732, -6.49842, 3.32362, -8, 2.43071, -8, -0.0496063, -5.60551, -1.73622)
+5:0/0 = 0
+5:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+5:0/0/physics_layer_0/angular_velocity = 0.0
+5:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-6.99449, -4.91102, 6.69685, -4.7126, 6.89527, 6.10157, -6.99449, 6.00236)
+10:0/size_in_atlas = Vector2i(2, 1)
+10:0/0 = 0
+10:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+10:0/0/physics_layer_0/angular_velocity = 0.0
+10:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 15.468, -7.68979, 15.9459, 3.97663, 15.0307, 4.21653, 15.1299, 7.0937, 9.72502, 7.20517, 9.96125, 4.92157, -10.1693, 4.91102, -10.1975, 7.04768, -14.686, 6.81145, -14.9222, 4.05537, -15.8671, 4.05537, -15.7884, -8.07137)
+11:2/size_in_atlas = Vector2i(1, 2)
+11:2/0 = 0
+11:2/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+11:2/0/physics_layer_0/angular_velocity = 0.0
+11:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8.03201, -16.0501, 7.93285, -15.9762, 7.93285, 14.0758, -8.10963, 14.12)
+10:7/size_in_atlas = Vector2i(2, 2)
+10:7/0 = 0
+10:7/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+10:7/0/physics_layer_0/angular_velocity = 0.0
+10:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(2.4411, -8, 5.78776, -5.86651, 6.89019, -4.76408, 8, -2.8742, 9.01631, -0.511843, 10.9849, 2.008, 10.9062, 5.1578, 9.1738, 5.00031, 8, 3.18917, 8, 5.00031, 8.85882, 6.26023, 8.8533, 9.07603, 4.17609, 9.18739, 1.61427, 8, -0.835217, 9.29875, -6.06337, 9.37066, -6.49647, 6.10274, -10.9849, 6.024, -10.7487, 2.08674, -11.5755, -1.96863, -3.70102, -8)
+8:6/size_in_atlas = Vector2i(2, 3)
+8:6/0 = 0
+8:6/0/texture_origin = Vector2i(0, 15)
+8:6/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+8:6/0/physics_layer_0/angular_velocity = 0.0
+8:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -0.236235, 8, 0.393725, 5.11843, 4.64596, -0.236236, 6.69333, -5.74839, 4.33098)
+6:7/size_in_atlas = Vector2i(2, 2)
+6:7/0 = 0
+6:7/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+6:7/0/physics_layer_0/angular_velocity = 0.0
+6:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-3.89768, -12.8067, 0.111362, -12.1385, 5.0113, -14.143, 10.134, -11.9158, 10.3567, -9.02035, 13.4748, -5.9022, 13.0294, -2.78406, 13.9203, 3.89768, 13.4748, 8.5749, 10.3567, 9.68852, 9.4658, 13.2521, 6.34765, 13.2521, 1.67043, 12.3612, -1.67043, 14.3657, -8.35217, 13.9203, -13.0294, 9.68852, -15.2566, -2.11588, -13.6976, -7.684, -10.5794, -10.5794, -7.23855, -14.3657)
+
+[sub_resource type="TileSet" id="TileSet_satd5"]
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_87i63")
+
+[node name="ObjectsTerrain" type="TileMap"]
+y_sort_enabled = true
+tile_set = SubResource("TileSet_satd5")
+format = 2
+layer_0/y_sort_enabled = true
