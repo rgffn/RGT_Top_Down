@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://p70ah17s5duy"]
+
+[ext_resource type="FontFile" uid="uid://ga860kxkdm2q" path="res://at01.ttf" id="1_82l3y"]
+[ext_resource type="Script" path="res://ui/Scripts/back_button.gd" id="2_c0oc4"]
+
+[node name="BackButton" type="Button"]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -8.0
+offset_bottom = 8.0
+grow_horizontal = 0
+size_flags_horizontal = 8
+theme_override_fonts/font = ExtResource("1_82l3y")
+text = "Voltar"
+flat = true
+script = ExtResource("2_c0oc4")
